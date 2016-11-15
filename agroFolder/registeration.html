@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SignUp and Registeration</title>
+		<link rel="stylesheet" type="text/css" href="home.css">
+	</head>
+	<body>
+		<div class="x-logo"><img src="/agroGoldSeeds/logo.jpg" alt="logo"><a href="home.html"></a></div>
+		<div class="formContainer">
+			<h2>Please enter the below details</h2>
+			<form action="registeration.php" method="post">
+				<div>
+					<div>First Name: <input type="text" name="fname" required></input></div>
+					<div>Last Name: <input type="text" name="lname" required></div>
+					<div>E-mail:    <input type="email" name="email" required></div>
+					<div>Adresses: <input type="text" name="address" required></div>
+					<div>City: <input type="text" name="city" required></div>
+					<div>State: <input type="text" name="state" required></div>
+					<div>Country: <input type="text" name="country" required></div>
+					<div>Zip Code: <input type="number" name="zip" pattern= "[0-9]{5,5}" required></div>
+					<div>Phone: <input type="text" name="mobile" pattern= "[0-9]{10,10}" required></div>
+				</div>
+				<input type="submit" value="Submit" class="submit"></input>
+			</form>
+		</div>
+	</body>
+</html>

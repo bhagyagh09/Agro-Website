@@ -1,0 +1,3 @@
+CREATE TABLE `registerationForm`.`products` ( `product_id` INT(4) NOT NULL AUTO_INCREMENT , `product_price` INT(10) NOT NULL , `product_image` VARCHAR(255) NOT NULL , `product_desc` VARCHAR(255) NOT NULL , PRIMARY KEY (`product_id`)) ENGINE = MyISAM;
+
+INSERT INTO `registerationform`.`products` (`product_id`, `product_price`, `product_image`, `product_desc`) VALUES ('1', '30', 'bajra.jpg', 'Free Shiping'), ('2', '20', 'wheat.jpg', 'Free Shiping'), ('3', '25', 'jowar.jpg', 'Limited product'), ('4', '15', 'oilSeeds.jpg', 'Free Shiping'), ('5', '30', 'paddy.jpg', 'Free Shipping')

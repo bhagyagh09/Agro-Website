@@ -1,0 +1,1 @@
+CREATE TABLE `registerationForm`.`cart` ( `p_id` INT(4) NOT NULL, `ip_add` VARCHAR(255) NOT NULL , `p_qty` INT(10) NOT NULL) ENGINE = MyISAM;
